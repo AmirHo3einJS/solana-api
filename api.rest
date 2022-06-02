@@ -1,0 +1,21 @@
+@baseUrl = http://localhost:5000/api
+@address = 2Sfigr2RaKpqKi32mxXNXLnNt32PUjKJFkmwu6aFv8rz
+@nftAddress = FfKu1z9QwGu5NnnBwfAkpnzKhJSs9fp4YkRrPN9QkxCV
+
+GET {{baseUrl}}/balance?address={{address}}
+
+###
+
+GET {{baseUrl}}/nft?address={{address}}
+
+###
+
+GET {{baseUrl}}/portfolio?address={{address}}
+
+###
+
+GET {{baseUrl}}/spl?address={{address}}
+
+###
+
+GET {{baseUrl}}/nft-metadata?address={{nftAddress}}
